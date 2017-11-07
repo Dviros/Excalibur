@@ -25,6 +25,8 @@ https://github.com/vivami/MS17-010
 3. Add your shellcode and the compiled exploiter into "a.zip" and copy it to the "loot" folder".
 * a.zip needs to contain a compiled, standalone eternalblue exploiter from "vivami's" repo and the shellcode.
 
+4. Copy the powershell script to (p_v2.ps) to the loot folder.
+
 
 # TODO
 1. Add persistency in terms of add a new user account, and persistent shell.
