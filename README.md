@@ -19,8 +19,7 @@ Follow the steps here to compile a shellcode:
 https://github.com/vivami/MS17-010
 
 1. Copy payload.txt to the switch folder.
-2. Download and copy an NMAP instaler to the "loot" folder.
-3. Add your shellcode in "a.zip" and copy it to the "loot" folder".
+2. Add your shellcode in "a.zip" and copy it to the "loot" folder".
 a.zip contains a compiled, standalone eternalblue exploiter from "vivami's" repo.
 
 
