@@ -9,9 +9,8 @@ When Excalibur gets connected to the machine, it will run the following:
 
 1. Trys to bypass UAC, or just get administrative rights
 2. Gets interface info (IP addresses) and build a network map inside a TXT file.
-3. Installs NMAP, silently.
-4. Scans port 445 for the known "MS10-17" ("EternalBlue") vulnerability in every segment found.
-5. Exploits every machine and drop a shell to a remote machine.
+3. Scans port 445 for the known "MS10-17" ("EternalBlue") vulnerability in every segment found.
+4. Exploits every machine and drop a shell to a remote machine.
 
 
 # How to?
