@@ -327,8 +327,5 @@ Exploit
 #persistency
 #Add a new user account.
 
-#Exfiltration
-#Extracts database info to a remote machine, using the credentials.
-
 #Obfuscation
-#Uninstall the NMAP, delete temp files, generate a report to the loot folder.
+#delete temp files, Generate a report to the loot folder.
