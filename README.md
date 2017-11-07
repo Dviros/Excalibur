@@ -1,5 +1,5 @@
 # Excalibur
-Excalibur is an APT based "Powershell" for the Bashbunny project.
+Excalibur is an Eternalblue exploit based "Powershell" for the Bashbunny project.
 It's purpose is to reflect on how a "simple" USB drive can execute the 7 cyber kill chain.
 Excalibur may be used only for demostrations purposes only, and the developers are not responsible to any misuse or illeagal usage.
 
