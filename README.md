@@ -14,6 +14,16 @@ When Excalibur gets connected to the machine, it will run the following:
 5. Exploits every machine and drop a shell to a remote machine.
 
 
+# How to?
+Follow the steps here to compile a shellcode:
+https://github.com/vivami/MS17-010
+
+1. Copy payload.txt to the switch folder.
+2. Download and copy an NMAP instaler to the "loot" folder.
+3. Add your shellcode in "a.zip" and copy it to the "loot" folder".
+a.zip contains a compiled, standalone eternalblue exploiter from "vivami's" repo.
+
+
 # TODO
 1. Add persistency in terms of add a new user account, and persistent shell.
 2. Exploit other machines and applications in the network, with the credentials added in the persistency step.
