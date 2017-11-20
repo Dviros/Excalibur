@@ -20,7 +20,7 @@ https://github.com/vivami/MS17-010
 1. Copy payload.txt to the switch folder.
 2. Copy the "eternablblue_exploit7.py" and compile it using Pyinstaller:
 * "pip install pyinstaller"
-* "pipinstaller --onefile eternablblue_exploit7.py"
+* "pipinstaller --onefile MS17-010\eternablblue_exploit7.py"
 
 3. Add your shellcode and the compiled exploiter into "a.zip" and copy it to the "loot" folder".
 * a.zip needs to contain a compiled, standalone eternalblue exploiter from "vivami's" repo and the shellcode.
