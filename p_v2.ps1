@@ -264,7 +264,7 @@ function PScanner(){
 			}
 		}
 	}
-	"@
+"@
 	Add-Type -TypeDefinition $Source
 
 	$Networks = Get-WmiObject Win32_NetworkAdapterConfiguration -ComputerName $env:COMPUTERNAME -EA Stop | ? {$_.IPEnabled}
