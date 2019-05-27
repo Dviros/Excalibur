@@ -1,4 +1,6 @@
-# If you enjoyed this tool and you found it useful, I'll be happy for donations at 39om67XSXi1eAQNTgLXufw1xwR897JMWwv. Thanks!
+## Excalibur will soon be updated to utilize Metasploit over the Bashbunny.
+
+
 
 # Excalibur
 Excalibur is an Eternalblue exploit based "Powershell" for the Bashbunny project.
